@@ -19,8 +19,8 @@ void main()
   for (i = 0; i < 5; i++)
     for (j = i; j < 5; j++ )
     {
-      a[i][j] =  i * 10 + j;
-      b[i][j] = (i * 10 + j) * 100;
+        a[i][j] = i * 10 + j;
+        b[i][j] = (i * 10 + j) * 100;
     }
   c = a + b;
   cout << "Matrix a = " << endl << a << endl;
